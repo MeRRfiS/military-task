@@ -1,0 +1,34 @@
+{
+    "name": "CameraInputAction",
+    "maps": [
+        {
+            "name": "Camera",
+            "id": "f2ecc14b-b3bd-4275-bc5e-f2349c2b0084",
+            "actions": [
+                {
+                    "name": "Moving",
+                    "type": "Value",
+                    "id": "03ed763c-3212-4c47-93b3-2410eaa1b76d",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "b5a20821-01bb-4715-aa0b-9240aa7230e5",
+                    "path": "<Touchscreen>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Moving",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
